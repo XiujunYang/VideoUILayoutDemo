@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">VideoDemo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="list_favorite">My favorite</string>
+    <string name="list_chinese">Chinese song list</string>
+    <string name="list_english">English song list</string>
+
+    <string-array name="video_title_list_ch">
+        <item>范瑋琪 - 如果的事</item>
+        <item>周杰倫 - 愛在西元前</item>
+        <item>梁靜茹 - 情歌</item>
+    </string-array>
+    <string-array name="image_url_list_ch">
+        <item>http://s105.youmaker.com/flv/2014/4-4/d887d555467e44139fa7db0d76143ad4105.jpg</item>
+        <item>http://s85.youmaker.com/flv/2013/9-17/f2b7a5eda4014da2b8972874bb95356e085.jpg</item>
+        <item>http://s105.youmaker.com/flv/2014/11-15/e11de76511034b3b8f387256f554964b105.jpg</item>
+    </string-array>
+    <string-array name="video_url_list_ch">
+        <item>http://s105.youmaker.com/flv/2014/4-4/mp4117231540d887d555467e44139fa7db0d76143ad4105.mp4</item>
+        <item>http://s85.youmaker.com/flv/2013/9-17/mp4343765420f2b7a5eda4014da2b8972874bb95356e085.mp4</item>
+        <item>http://s105.youmaker.com/flv/2014/11-15/mp4645329e11de76511034b3b8f387256f554964b105.mp4</item>
+    </string-array>
+
+    <string-array name="video_title_list_en">
+        <item>OneRepublic - Counting Stars</item>
+        <item>Katy Perry - Roar</item>
+        <item>Katy Perry - Rise</item>
+    </string-array>
+    <string-array name="image_url_list_en">
+        <item>http://s110.youmaker.com/flv/2016/5-3/a2d480115aeb4c939afbc1922588ce10110.jpg</item>
+        <item>http://s90.youmaker.com/flv/2014/4-19/96fcb7cf49b249249102c9578d015c87090.jpg</item>
+        <item>http://s85.youmaker.com/flv/2016/8-8/cea417cbb93f46f28faf0eb963ae2f9c85.jpg</item>
+    </string-array>
+    <string-array name="video_url_list_en">
+        <item>http://s110.youmaker.com/flv/2016/5-3/mp4858654701a2d480115aeb4c939afbc1922588ce10110.mp4</item>
+        <item>http://s90.youmaker.com/flv/2014/4-19/mp474183549396fcb7cf49b249249102c9578d015c87090.mp4</item>
+        <item>http://s85.youmaker.com/flv/2016/8-8/mp4144860212cea417cbb93f46f28faf0eb963ae2f9c85.mp4</item>
+    </string-array>
+
+    <string-array name="video_title_list_favorite">
+        <item>Coldplay - Paradise</item>
+    </string-array>
+    <string-array name="image_url_list_favorite">
+        <item>http://s30.youmaker.com/flv/2011/12-31/47f230c9d5d546619810ac11d78141a6001.jpg</item>
+    </string-array>
+    <string-array name="video_url_list_favorite">
+        <item>http://s30.youmaker.com/flv/2011/12-31/mp49757040647f230c9d5d546619810ac11d78141a6001.mp4</item>
+    </string-array>
+</resources>

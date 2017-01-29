@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33C2BE</color>
+    <color name="colorPrimaryDark">#1E8B85</color>
+    <color name="colorAccent">#0BA6D1</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="CategoryTextColorBackground">#FFFFFF</color>
+    <color name="CategoryTextColor">#000000</color>
+    <color name="videoTitleTextColor">#000000</color>
+    <color name="windowBackground">#EDE9B9</color>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/video_horizontal_margin"
+    android:layout_marginRight="@dimen/video_horizontal_margin"
+    android:gravity="bottom">
+
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" >
+        <ImageView
+        android:id="@+id/imageviewforvideo"
+        android:layout_height="@dimen/thumbnail_img_height"
+        android:layout_width="@dimen/thumbnail_img_width"
+        android:background="@android:color/black" />
+
+        <TextView android:id="@+id/videotitle"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/thumbnail_img_width"
+            android:layout_marginTop="@dimen/video_vertical_margin"
+            android:textColor="@android:color/white"
+            android:singleLine="false"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageButton android:id="@+id/favorite"
+            android:layout_width="@dimen/Like_imgBtn_width_height"
+            android:layout_height="@dimen/Like_imgBtn_width_height"
+            android:src="@drawable/empty_star"
+            android:focusable="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="right|bottom"
+            android:scaleType="fitCenter"
+            android:clickable="true"
+            android:background="?android:selectableItemBackground" />
+        <!-- @android:color/transparent/> -->
+
+    </FrameLayout>
+</LinearLayout>

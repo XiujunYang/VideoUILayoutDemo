@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_favorite_list"
+            android:icon="@drawable/star_list"
+            android:title="My Favorite" />
+        <item
+            android:id="@+id/chinese_song_list"
+            android:title="Chinese Song List" />
+        <item
+            android:id="@+id/english_song_list"
+            android:title="English Song List" />
+
+        <item
+            android:id="@+id/korean_song_list"
+            android:title="Korean Song List" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_icon"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
